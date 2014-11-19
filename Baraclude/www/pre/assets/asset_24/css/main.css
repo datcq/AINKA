@@ -1,0 +1,23 @@
+.asset_24 .land {
+    width: 494px;
+    height: 268px;  
+    left: 345px;
+    top: 394px; 
+    background: url(../images/bgmap.png) no-repeat; 	
+}
+
+.asset_24 .step { opacity: 0; -webkit-transition: opacity 0.25s linear; }
+.asset_24 .step.ani { opacity: 1; }
+
+.asset_24 .s1_1 { width: 160px; height: 37px; left: 560px; top: 173px; background: url(../images/s1_1.png) no-repeat;}
+.asset_24 .s1_2 { width: 544px; height: 58px; left: 367px; top: 210px; background: url(../images/s1_2.png) no-repeat;}
+.asset_24 .s1_3 { width: 850px; height: 55px; left: 214px; top: 268px; background: url(../images/s1_3.png) no-repeat;}
+.asset_24 .s1_4 { width: 826px; height: 58px; left: 227px; top: 323px; background: url(../images/s1_4.png) no-repeat;}
+.asset_24 .s1_5 { width: 1054px; height: 56px; left: 113px; top: 381px; background: url(../images/s1_5.png) no-repeat;}
+.asset_24 .s1_6 { width: 833px; height: 56px; left: 224px; top: 436px; background: url(../images/s1_6.png) no-repeat;}
+.asset_24 .s1_7 { width: 1054px; height: 102px; left: 113px; top: 494px; background: url(../images/s1_7.png) no-repeat;}
+
+.asset_24 .btnBack {
+	left: 1174px;
+	top: 544px;
+}

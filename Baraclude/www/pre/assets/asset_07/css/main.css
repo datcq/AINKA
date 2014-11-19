@@ -1,0 +1,52 @@
+
+@-webkit-keyframes zoom {
+    0%{
+        -webkit-transform: scale(0.8);
+    }
+    100%{
+        -webkit-transform: scale(1);
+    }
+}
+
+.asset_07 .img1 { 
+	width: 863px;
+	height: 25px;
+	left: 326px;
+	top: 152px;
+	z-index:2;
+	background: url(../images/img1.png) no-repeat;
+	display: none;
+}
+
+.asset_07 .img2 { 
+	width: 964px;
+	height: 504px;
+	left: 264px;
+	top: 165px;
+	z-index:1;
+	background: url(../images/img2.png) no-repeat;
+	background-position: 0px -510px;
+	-webkit-transition: background-position 0.5s ease;
+}
+
+.asset_07 .img2.ani { 
+	background-position: 0px 0px;	
+}
+
+.asset_07 .warn {
+	width: 65px;
+	height: 68px;
+	left: 31px;
+	top: 203px;
+	background: url(../images/warn.png) no-repeat;
+	-webkit-transform: scale(0.8);
+	-webkit-animation: zoom 0.5s linear infinite alternate forwards;
+}
+.asset_07 .doll {
+	width: 297px;
+	height: 393px;
+	left: 11px;
+	top: 239px;
+	z-index:2;
+	background: url(../images/doll.png) no-repeat;	
+}

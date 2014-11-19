@@ -1,0 +1,62 @@
+
+.asset_12 .img1 {
+    width: 796px;  
+	height: 24px;
+	left: 232px;
+	top: 159px;
+	background: url(../images/img1.png) no-repeat;
+	display: none;
+	z-index:3;
+}
+.asset_12 .img2 { 
+	width: 943px;
+	height: 490px;
+	left: 170px;
+	top: 171px;
+	background: url(../images/img2.png) no-repeat;
+	background-position: 0px -510px;
+	-webkit-transition: background-position 0.5s ease;
+	z-index:1;
+}
+
+.asset_12 .img2.ani { 
+	background-position: 0px 0px;	
+}
+
+.asset_12 .num {
+    width: 504px;  
+	height: 161px;
+	left: 438px;
+	top: 286px;
+	background: url(../images/num.png) no-repeat;
+	display: none;
+	z-index:2;
+}
+.asset_12 .line {  
+	-webkit-transition: width 0.5s ease-in-out;  
+	z-index: 2;	
+    background: url(../images/line.png) no-repeat;
+	width: 0px;
+	height: 91px;
+	left: 384px;
+    top: 362px;	
+    display: none;	
+}
+.asset_12 .line.ani {
+	width: 538px;
+}
+.asset_12 .puBg {
+    width: 1203px;
+    height: 516px;  
+    left: 48px;
+    top: 158px; 
+    background: url(../images/pu.png) no-repeat; 	
+}
+.asset_12 .btnpdf {	
+	left: 1166px;
+    top: 544px;		
+}
+.asset_12 .puScr .puBg .close {
+	left: 984px;
+	top: 13px;
+}

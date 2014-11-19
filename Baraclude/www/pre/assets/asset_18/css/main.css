@@ -1,0 +1,77 @@
+@-webkit-keyframes fade {
+    0%{
+		opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes zoom {
+    0%{
+        -webkit-transform: scale(1);
+    }
+    100%{
+        -webkit-transform: scale(1.1);
+    }
+}
+.asset_18 .arrow {
+	width: 0px;
+	height: 253px;
+	left: 87px;
+	top: 391px;
+	background: url(../images/arrow.png) no-repeat;	
+	-webkit-transition: width 2s linear;	
+} 
+.asset_18 .arrow.ani {
+	width: 1010px;
+}
+ 
+.asset_18 .animate {
+	opacity: 0;
+	-webkit-animation: fade 0.5s linear forwards;
+}
+
+.asset_18 .step_1 { width: 102px; height: 74px; left: 154px; top: 345px; background: url(../images/step_01.png) no-repeat;}
+.asset_18 .step_2 { width: 102px; height: 131px; left: 213px; top: 297px; background: url(../images/step_02.png) no-repeat;}
+.asset_18 .step_3 { width: 102px; height: 124px; left: 331px; top: 322px; background: url(../images/step_03.png) no-repeat;}
+.asset_18 .step_4 { width: 163px; height: 262px; left: 374px; top: 196px; background: url(../images/step_04.png) no-repeat;}
+.asset_18 .step_5 { width: 102px; height: 92px; left: 486px; top: 378px; background: url(../images/step_05.png) no-repeat;}
+.asset_18 .step_6 { width: 163px; height: 324px; left: 536px; top: 157px; background: url(../images/step_06.png) no-repeat;}
+.asset_18 .step_7{ width: 102px; height: 91px; left: 643px; top: 402px; background: url(../images/step_07.png) no-repeat;}
+.asset_18 .step_8 { width: 163px; height: 271px; left: 691px; top: 233px; background: url(../images/step_08.png) no-repeat;}
+.asset_18 .step_9 { width: 102px; height: 40px; left: 798px; top: 385px; background: url(../images/step_09.png) no-repeat;}
+.asset_18 .step_10 { width: 102px; height: 93px; left: 798px; top: 425px; background: url(../images/step_10.png) no-repeat;}
+.asset_18 .step_11 { width: 3px; height: 262px; left: 919px; top: 257px; background: url(../images/step_11.png) no-repeat;}
+.asset_18 .step_12 { width: 163px; height: 94px; left: 844px; top: 173px; background: url(../images/step_11a.png) no-repeat;}
+.asset_18 .step_13 { width: 163px; height: 241px; left: 944px; top: 303px; background: url(../images/step_12.png) no-repeat;}
+.asset_18 .step_14 { width: 163px; height: 241px; left: 944px; top: 303px; background: url(../images/step_13.png) no-repeat;}
+
+.asset_18 .year_1 { width: 51px; height: 70px; left: 177px; top: 424px; background: url(../images/year_01.png) no-repeat;}
+.asset_18 .year_2 { width: 47px; height: 69px; left: 237px; top: 433px; background: url(../images/year_02.png) no-repeat;}
+.asset_18 .year_3 { width: 50px; height: 71px; left: 355px; top: 452px; background: url(../images/year_03.png) no-repeat;}
+.asset_18 .year_4 { width: 51px; height: 69px; left: 432px; top: 465px; background: url(../images/year_04.png) no-repeat;}
+.asset_18 .year_5 { width: 50px; height: 69px; left: 511px; top: 477px; background: url(../images/year_05.png) no-repeat;}
+.asset_18 .year_6 { width: 51px; height: 68px; left: 588px; top: 489px; background: url(../images/year_06.png) no-repeat;}
+.asset_18 .year_7{ width: 51px; height: 67px; left: 667px; top: 502px; background: url(../images/year_07.png) no-repeat;}
+.asset_18 .year_8 { width: 51px; height: 64px; left: 744px; top: 514px; background: url(../images/year_08.png) no-repeat;}
+.asset_18 .year_9 { width: 51px; height: 67px; left: 821px; top: 527px; background: url(../images/year_09.png) no-repeat;}
+.asset_18 .year_10 { width: 51px; height: 99px; left: 891px; top: 517px; background: url(../images/year_10.png) no-repeat;}
+.asset_18 .year_11 { width: 51px; height: 67px; left: 1000px; top: 552px; background: url(../images/year_11.png) no-repeat;}
+
+.asset_18 .ani1 { -webkit-animation-delay: 0.5s }
+.asset_18 .ani2 { -webkit-animation-delay: 0.75s }
+.asset_18 .ani3 { -webkit-animation-delay: 1s }
+.asset_18 .ani4 { -webkit-animation-delay: 1.25s }
+.asset_18 .ani5 { -webkit-animation-delay: 1.4s }
+.asset_18 .ani6 { -webkit-animation-delay: 1.6s }
+.asset_18 .ani7 { -webkit-animation-delay: 1.8s }
+.asset_18 .ani8 { -webkit-animation-delay: 2s }
+.asset_18 .ani9 { -webkit-animation-delay: 2.2s; }
+.asset_18 .ani10 { -webkit-animation-delay: 2.45s }
+.asset_18 .ani11 { -webkit-animation-delay: 2.65s }
+
+.asset_18 .step_9.ani2_2, .asset_18 .step_12.ani2_2 , .asset_18 .step_14.ani2_2{ -webkit-animation: zoom 0.5s linear 4 alternate forwards; }
+
+.asset_18 .box{ display:none; z-index:10;}
+.asset_18 .box1{ width:168px; height:100px; top:300px; left: 942px;}
+.asset_18 .box2{ width:108px; height:44px; top:382px; left:794px;}

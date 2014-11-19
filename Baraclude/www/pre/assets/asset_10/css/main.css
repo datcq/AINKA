@@ -1,0 +1,44 @@
+
+.asset_10 .chart {
+    width: 912px;  
+	height: 413px;
+	left: 184px;
+	top: 135px;
+	background: url(../images/chart.png) no-repeat;
+}
+.asset_10 .txt {
+    width: 918px;  
+	height: 99px;
+	left: 156px;
+	top: 541px;
+	background: url(../images/txt.png) no-repeat;
+}
+.asset_10 .num {
+    width: 326px;  
+	height: 174px;
+	left: 449px;
+	top: 223px;
+	background: url(../images/num.png) no-repeat;
+	display: none;
+}
+.asset_10 .line {  
+    display: none;
+	-webkit-transition: width 0.5s ease-in-out;  
+	z-index: 2;	
+    background: url(../images/line.png) no-repeat;
+	width: 0px;
+	height: 193px;
+	left: 381px;
+    top: 236px;		
+}
+.asset_10 .line.ani {
+	width: 377px;
+}
+.asset_10 .btnpdf {	
+	left: 1166px;
+    top: 544px;		
+}
+
+.asset_10 .col.ani  {
+    background-position: 0px 0px;
+}

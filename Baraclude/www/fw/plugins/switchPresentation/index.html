@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>TabBar Control</title>
+	<link rel="stylesheet" href="chui/chui.ios.css">
+	<link rel="stylesheet" href="css/switchPresentation.css" type="text/css">
+   <script src="libs/chocolatechip.js"></script>
+   <script src="chui/iscroll.js"></script>
+   <script src="chui/chui.ios.js"></script>
+   <script src="js/switchPresentation.js"></script>
+	
+</head>
+<body>
+	<app>
+		<view id="main" ui-background-style="slanted-right" ui-navigation-status="current">			
+			<subview id="sv1" ui-associations="withNavBar withTabBar">
+				<scrollpanel>					                    
+					<stack id="st1"></stack>									
+					<stack id="stackpanel_01" ui-implements="segmented-toggle-stack">
+						<panel>	
+                            <tableview ui-kind="grouped" id="select_prezs">	                   
+                            </tableview>
+                        </panel>
+                        <panel>	
+                             <tableview ui-kind="grouped" id="other_prezs">                   
+                            </tableview>
+                        </panel>					
+					</stack>				
+                   
+				</scrollpanel>
+                
+			</subview>
+
+			<subview id="sv2" ui-associations="withNavBar withTabBar">
+				<scrollpanel>
+                   
+					<stack id="st2"></stack>
+									
+					<stack id="stackpanel_02" ui-implements="segmented-toggle-stack">
+						<panel>
+                            <tableview ui-kind="grouped" id="select_libraries">                      
+                            </tableview>
+                        </panel>
+                        <panel>
+                             <tableview ui-kind="grouped" id="other_libraries">                      
+                            </tableview>
+                        </panel>					
+					</stack>
+					
+                   
+				</scrollpanel>
+
+			</subview>
+			
+			<tabbar ui-selected-tab="0">
+				<!--<uibutton  ui-implements="tab">              					
+					<label>Presentations</label>         
+				</uibutton>-->
+				<!--uibutton ui-implements="tab">       					
+					<label>Libraries</label>  
+				</uibutton-->				
+			</tabbar>
+		</view>
+	</app>
+</body>
+</html>

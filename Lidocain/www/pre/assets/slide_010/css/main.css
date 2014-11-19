@@ -1,0 +1,23 @@
+.slide_010 #head2, .slide_010 #mainEN{ display:none;}
+.slide_010 .btnVN, .slide_010 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_010 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_010 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_010 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_010 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_010 .board{background:url(../images/board.png) no-repeat; position:absolute; width:749px; height:441px; top: 145px; left: 260px;-webkit-transform: scale(0.9);}
+.slide_010 .chart{background:url(../images/chart.png) no-repeat; position:absolute; width:263px; height:0px; bottom: 123px; left: 272px;-webkit-transition: height 1s;}
+.slide_010 .chart.ani{ height:240px;}
+.slide_010 .txt_chart {position:absolute;font-size:20px; width:300px; text-align:center;}
+.slide_010 .txt_chart1{left: 150px; top: 323px; }
+.slide_010 .txt_chart2{left: -9px; top: 180px; -webkit-transform:rotate(-90deg);}
+.slide_010 .txt_chart3{left: 356px; top: 323px; }
+.slide_010 .txt_chart4{left: 236px; top: 48px; }
+.slide_010 .footnote{position:absolute;top: 547px; left: 122px; font-size: 21px;width: 1150px; height:100px;}
+.slide_010 .footnote div:nth-child(1){background:url(../images/bullet_1.png) no-repeat; position:absolute; top:0px;height:100px;padding: 20px 45px;}
+.slide_010 .footnote div:nth-child(2){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 43px;height:100px;padding: 21px 45px;}
+.slide_010 .bg_pu p{text-align:left; font-size: 30px; position:absolute; top: 121px; left: 64px;width: 590px;}

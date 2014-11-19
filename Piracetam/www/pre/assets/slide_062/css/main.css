@@ -1,0 +1,13 @@
+.slide_062 #head2, .slide_062 #mainEN{ display:none;}
+/*.btnVN, .btnEN{ width:50px; height:50px; top: 35px; z-index: 99; display:none;}*/
+	.slide_062 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 10px;}
+	.slide_062 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 69px;}
+.slide_062 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_062 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_062 .lamp{background:url(../images/lamp.png) no-repeat; width:953px; height:475px; top: 0px; left: 87px; position:absolute;}
+.slide_062 .lamp_ac{background:url(../images/lamp_ac.png) no-repeat; width:1066px; height:542px; top: 0px; left: 47px; position:absolute; display:none;}
+.slide_062 .btn_on{display:none;}

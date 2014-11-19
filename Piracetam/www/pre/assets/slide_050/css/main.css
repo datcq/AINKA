@@ -1,0 +1,25 @@
+.slide_050 #head2, .slide_050 #mainEN{ display:none;}
+.slide_050 .btnVN, .slide_050 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_050 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_050 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_050 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_050 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_050 .txt, .slide_050 .txt_en{ width:736px; height:270px; z-index:6;}
+	.slide_050 .txt{ background:url(../images/txt.png) no-repeat; top:222px; left:61px;}
+	.slide_050 .txt_en{ background:url(../images/txt_en.png) no-repeat; top:222px; left:61px; }
+
+.slide_050 .board{background:url(../images/board.png) no-repeat; position:absolute; top: 190px; left: 47px; width:754px; height: 319px; z-index:1;}
+
+.slide_050 .img{background:url(../images/img.png) no-repeat; position:absolute; top: 103px; left: 838px; width: 372px; height: 308px;}
+.slide_050 .lamp{background:url(../images/lamp.png) no-repeat; position:absolute; top: 125px; left: 176px; width: 461px; height:55px;}
+.slide_050 .light{background:url(../images/light.png) no-repeat; position:absolute; top: 98px; left: 0px; width:914px; height:470px;z-index: 5; display:none;}
+.slide_050 .txt_r{position:absolute; top: 424px; left: 836px; font-size: 20px; color:#6d1308;}
+
+.slide_050 .numYellow{ background:url(../images/numYellow.png) no-repeat; width:75px; height:75px; top:476px; left:682px; z-index:10; display:none;}
+
+.slide_050 .bgpu p{ top:277px;}

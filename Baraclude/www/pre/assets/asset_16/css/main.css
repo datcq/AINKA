@@ -1,0 +1,124 @@
+.asset_16 .img1 { 
+	width: 893px;
+	height: 29px;
+	left: 180px;
+	top: 137px;
+	background: url(../images/img1.png) no-repeat;
+	display: none;
+	z-index:2;
+}
+.asset_16 .img2 {
+    width: 1068px;  
+	height: 516px;
+	left: 107px;
+	top: 152px;
+	background: url(../images/img2.png) no-repeat;
+	background-position: 0px -510px;
+	-webkit-transition: background-position 0.5s ease;
+	z-index:1;
+}
+.asset_16 .img2.ani { 
+	background-position: 0px 0px;	
+}
+.asset_16 .colCt {	
+    position: absolute;
+    top: 44px;
+    height: 346px;
+    overflow: hidden;
+}
+.asset_16 .colCt1 {    
+	left: 174px;
+}
+.asset_16 .colB { background: -webkit-gradient(linear, left top, right top, color-stop(0%,#44c8f5), color-stop(50%,#b9edff), color-stop(100%,#44c8f5)); }
+.asset_16 .colR { background: -webkit-gradient(linear, left top, right top, color-stop(0%,#77080a), color-stop(50%,#d55353), color-stop(100%,#77080a)); }
+.asset_16 .colG { background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3b7124), color-stop(50%,#7be142), color-stop(100%,#3b7124)); }
+.asset_16 .colP { background: -webkit-gradient(linear, left top, right top, color-stop(0%,#7f1fc2), color-stop(50%,#c85ce4), color-stop(100%,#7f1fc2)); }
+.asset_16 .colY { background: -webkit-gradient(linear, left top, right top, color-stop(0%,#e9ac42), color-stop(50%,#e9ac42), color-stop(100%,#be7b06)); }
+
+
+.asset_16 .colCt > div {	
+    position: relative;
+    height: 346px;
+    float: left;
+    width: 21px;
+    margin-right: 1px;
+}
+.asset_16 .col {  
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;  
+	bottom: 0px;
+	position: absolute;
+	width: 21px;
+}
+.asset_16 .col > div {  
+	font-size: 16px;
+	font-family: 'mypro_sb';
+	color: #717074;
+	width: 100%;
+	text-align: center;
+	-webkit-transform: translate3d(0px,-17px,0px);
+}
+
+.asset_16 .colCt1 {    
+	left: 174px;
+}
+.asset_16 .colCt1 .colB { height: 105px; -webkit-transform: translate3d(0px,120px,0px); }
+.asset_16 .colCt1 .colR { height: 167px; -webkit-transform: translate3d(0px,182px,0px); }
+.asset_16 .colCt1 .colG { height: 212px; -webkit-transform: translate3d(0px,227px,0px); }
+.asset_16 .colCt1 .colP { height: 291px; -webkit-transform: translate3d(0px,306px,0px); }
+.asset_16 .colCt1 .colY { height: 303px; -webkit-transform: translate3d(0px,318px,0px); }
+
+.asset_16 .colCt2 {    
+	left: 304px;
+}
+.asset_16 .colCt2 .colB { height: 0px; -webkit-transform: translate3d(0px,15px,0px); }
+.asset_16 .colCt2 .colR { height: 13px; -webkit-transform: translate3d(0px,28px,0px); }
+.asset_16 .colCt2 .colG { height: 45px; -webkit-transform: translate3d(0px,60px,0px); }
+.asset_16 .colCt2 .colP { height: 80px; -webkit-transform: translate3d(0px,95px,0px); }
+.asset_16 .colCt2 .colY { height: 126px; -webkit-transform: translate3d(0px,141px,0px); }
+
+.asset_16 .colCt3 {    
+	left: 440px;
+}
+.asset_16 .colCt3 .colB { height: 1px; -webkit-transform: translate3d(0px,16px,0px); }
+.asset_16 .colCt3 .colR { height: 1px; -webkit-transform: translate3d(0px,16px,0px); }
+.asset_16 .colCt3 .colG { height: 3px; -webkit-transform: translate3d(0px,18px,0px); }
+.asset_16 .colCt3 .colP { height: 4px; -webkit-transform: translate3d(0px,19px,0px); }
+.asset_16 .colCt3 .colY { height: 4px; -webkit-transform: translate3d(0px,19px,0px); }
+
+.asset_16 .colCt4 {    
+	left: 573px;
+}
+.asset_16 .colCt4 .colB { height: 20px; -webkit-transform: translate3d(0px,35px,0px); }
+.asset_16 .colCt4 .colR { height: 72px; -webkit-transform: translate3d(0px,87px,0px); }
+
+.asset_16 .colCt5 {    
+	left: 700px;
+}
+.asset_16 .colCt5 .colB { height: 0px; -webkit-transform: translate3d(0px,16px,0px); }
+.asset_16 .colCt5 .colR { height: 0px; -webkit-transform: translate3d(0px,16px,0px); }
+.asset_16 .colCt5 .colG { height: 0px; -webkit-transform: translate3d(0px,18px,0px); }
+.asset_16 .colCt5 .colP { height: 0px; -webkit-transform: translate3d(0px,19px,0px); }
+.asset_16 .colCt5 .colY { height: 0px; -webkit-transform: translate3d(0px,19px,0px); }
+
+.asset_16 .col.ani {
+	-webkit-transform: translate3d(0px,0px,0px);
+}
+.asset_16 .btnpdf {	
+	left: 1166px;
+    top: 544px;		
+}
+
+.asset_16 .bntCt {	
+	left: 849px;
+	top: 149px;
+}
+.asset_16 .bntCt > div {	
+	width: 103px;
+	height: 21px;
+	margin-bottom: 9px;
+}
+.asset_16 .btnBack {
+	left: 1101px;
+	top: 474px;
+	z-index: 2;
+}

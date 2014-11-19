@@ -1,0 +1,399 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*--------------------------------------------Begin:Light Framework---------------------*/
+html * {
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);  /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+input{-webkit-user-select: text; }
+/*SI WIN config */
+html{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    width:100%;
+    height:100%;
+}
+ 
+body.si{
+    width:1280px;
+    height:752px;
+    position:relative;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+ html, body.si {
+    margin: 0px;
+    padding: 0px;
+    font-family:'mypro';
+    background: white;
+}
+
+strong, b{ font-weight:border}
+* {
+    margin:0px;
+    padding:0px;
+}
+sup, sub {
+    line-height:0px;
+    font-size:65%;
+}
+
+/*iBinder config */
+body.iBinder{
+    width:1280px;
+    height:752px;
+    font-family:'mypro';
+}
+/*end config*/
+
+sub, sup{ line-height:0px; font-size:65%;}
+a{ text-decoration:none;}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.po{ 
+    position:absolute;
+}
+
+.mypro { font-family: 'mypro';} /* Regular */
+.mypro_ita { font-family: 'mypro_ita';} /* Italic */
+.myprob { font-family: 'myprob';} /* Bold */
+.myprob_ita { font-family: 'myprob_ita';} /* Bold Italic */
+.mypro_sb { font-family: 'mypro_sb';} /* Semi Bold */
+.mypro_sb_ita { font-family: 'mypro_sb_ita';} /* Semi Bold Italic */
+
+.white {color: #fff;}
+.blue {color: #ab5704;}
+.grey{color:#666666;}
+
+
+
+.head{
+    background:url(../images/head.png) no-repeat;
+    width:1131px;
+    height:131px;
+    top:0;
+    left:0;
+    position:absolute;
+    z-index:99;
+}
+
+.head div { 
+    font: 28px 'mypro_sb';
+    color: #fff;
+    left: 313px;
+    top: 15px;
+    position: absolute;
+}
+.plus { 
+    background:url(../images/plus.png) no-repeat;
+    width: 77px;
+    height: 65px;
+    left: 1101px;
+    top: 544px;
+    position:absolute;
+	z-index:100;
+}
+.btnBack { 
+    background:url(../images/btnBack.png) no-repeat;
+    width: 77px;
+    height: 65px;
+    position:absolute;
+}
+.btnNext { 
+    background:url(../images/btnNext.png) no-repeat;
+    width: 77px;
+    height: 65px;
+    position:absolute;
+}
+.btnpdf { 
+    background:url(../images/pdf.png) no-repeat;
+    width: 77px;
+    height: 65px;
+    position:absolute;
+}
+/* Popup */
+.puScr  {
+    display: none;
+}
+.puScr .puBg {
+    width: 811px;
+    height: 491px;  
+    left: 233px;
+    top: 184px;
+    background: url(../images/pu.png) no-repeat;    
+}
+.puScr .puBg .puTxt {
+    font: 24px 'mypro';
+    color: #717174;
+    left: 111px;
+    top: 74px;
+width: 600px; line-height: 35px;}
+
+.puScr .puBg .close {
+    width: 76px;
+    height: 62px;
+    left: 644px;
+    top: 10px;
+}
+
+#loading {
+    width:1280px;
+    height:752px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:9999;
+    background: url("../../../icons/loadingPage.png") no-repeat scroll left top;
+}
+.bgpu{ background:url(../images/popup.jpg) 0 0 no-repeat; height:752px; width:1280px; top:0px; left:0px;}
+.bgpu .close {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    right: 30px;
+    top: 15px;
+}
+
+
+#stage
+{
+    z-index: 2;
+}
+#container {
+    height: 752px;
+    width: 1280px;
+    position: relative; 
+    overflow: hidden;
+} 
+#content
+{
+     position: absolute;
+     left:0px;
+     top:0px;
+     width: 1280px;
+     height: 752px; 
+     z-index: 2
+}
+
+/*--------------------------------------------End:Light Framework---------------------*/
+
+.bg{ 
+    z-index: 2;
+    background:url(../images/bg1.jpg) no-repeat;
+}
+.bg1{  
+    z-index: 2;
+    background:url(../images/bg.jpg) no-repeat;
+}
+#animationBG
+{
+    position:absolute;
+    z-index:1;
+    width:1280px;
+    height:752px;
+    left:0px;
+    top:0px;
+}
+#animationBG div
+{
+    position:absolute;
+    width:1280px;
+    height:752px;
+    display:none;   
+}
+#animationBG div:nth-child(1)
+{
+      background-image:url(../images/mask/1.png);
+      display:block;
+}
+#animationBG div:nth-child(2)
+{
+      background-image:url(../images/mask/2.png);
+      
+}
+#animationBG div:nth-child(3)
+{
+      background-image:url(../images/mask/3.png);
+}
+#logo
+{
+    width:333px;
+    height: 117px;
+    background:url("../images/logo.png") no-repeat scroll right bottom;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    z-index: 3;
+}
+
+#logo .btn_logo{ 
+    height:67px; width:126px; top:71px; right:10px; 
+    background:url("../images/btn_logo.png") no-repeat scroll right bottom;
+    position:absolute; 
+}
+
+#logo .btn_pdf{ 
+    height:36px; width:36px; top:71px; right:158px; 
+    background:url("../images/btn_pdf.png") no-repeat scroll right bottom;
+    position:absolute; 
+}
+
+#logo .btn_showTracking{ 
+    height:36px; width:36px; top:71px; right:205px; 
+    background:url("../images/btn_showTracking.png") no-repeat scroll right bottom;
+    position:absolute; 
+}
+
+
+/*-------Begin:Ref--------------*/
+.ref_content
+{
+    float: left;
+    width: 325px;
+    height: 520px;
+    margin: 45px 11px 11px 19px;
+    overflow: hidden;
+    color:#FFF;
+    font-size:14px;
+}
+.ref_content .ref_scroller
+{
+    float: left;
+    width:100%;
+}
+.ref_content p{ width:330px; margin:0px;}
+.ref_content .ref_scroller > div {
+    margin-bottom: 20px;
+}
+.ref_button
+{
+    width:20px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    bottom:0px;
+    
+}
+.ref_prev
+{
+    left:40%;
+}
+.ref_next
+{
+    left:50%;
+}
+.ref_button_disable
+{
+    background: #c0c0c0;
+}
+.ref {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 100;
+}
+/*-------End:Ref--------------*/
+.ref_container {width:385px; height: 752px; background: url(../images/ref_bg_pixel.jpg) #2e3ea1 repeat-y 0 0; top: 0px; right:-385px; z-index: 90; opacity:0; position: absolute;}
+.ref_container .ref_close {width:32px; height:32px; background:url(../images/close_btn.png) no-repeat; top: 20px; right: 2px; z-index: 100; position:absolute}
+.scrollV {
+    position:absolute;
+    z-index:100;
+    width:8px;
+    bottom:50px;
+    top:80px;
+    right:15px
+}
+
+.scrollV > div {
+    position:absolute;
+    z-index:100;
+    width:100%;
+
+    /* The following is probably what you want to customize */
+    background:RGBA(255,255,255,0.5);
+
+    -webkit-background-clip:padding-box;
+    -moz-background-clip:padding-box;
+    -o-background-clip:padding-box;
+    background-clip:padding-box;
+    
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -o-border-radius:4px;
+    border-radius:4px;
+}
+
+#btnClose {
+    background: url("../../../icons/close.png") no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+    right: 4px !important;
+    top: 4px !important;
+    z-index: 1001 !important;
+    position: absolute !important;                    
+}
+#listPrez {
+    background: url("../../../icons/switch.png")  no-repeat !important;
+    width: 30px !important;
+    height: 30px !important;
+    left: 5px !important;
+    top: 5px !important;
+    z-index: 1002 !important;
+    position: absolute !important;   
+}
+#switchPrezPanel {
+    width: 200px !important; 
+    height:250px !important; 
+    background-color:white !important;  
+
+    z-index:120 !important; 
+    position: absolute !important; 
+    left: 20px !important; 
+    top: 20px !important;
+
+}
+
+.ref_container h1{
+    position: relative;
+    top: 26px;
+    left: 16px;
+}
+
+
+.customBullet li, .customBullet div {
+    position: relative;
+    list-style: none;
+    padding-left: 30px; 
+    margin-bottom: 15px;
+}
+
+.customBullet li:after, .customBullet div:after {
+    content: '';
+    position: absolute;
+    background: url(../images/bullet.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+
+.aniCt {
+    display: none;
+}

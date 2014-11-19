@@ -1,0 +1,1 @@
+steal("./popup/popup.js","./pdf/pdf.js","./pdf/css/main.css","./video/video.js","./video/srt/srt.js","./jqueryui/jqueryui.js","./iscroll/iscroll.js","./slideshow/slideshow.js");

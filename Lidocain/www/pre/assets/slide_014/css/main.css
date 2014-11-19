@@ -1,0 +1,19 @@
+.slide_014 #head2, .slide_014 #mainEN{ display:none;}
+.slide_014 .btnVN, .slide_014 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_014 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_014 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_014 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_014 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_014 .board{background:url(../images/board.png) no-repeat; position:absolute; width:879px; height:424px; top: 135px; left: 370px;}
+.slide_014 .prod{background:url(../images/prod.png) no-repeat; position:absolute; width:464px; height:415px; top: 105px; left: -20px;}
+
+.slide_014 .board table{text-align:center; font-size: 30px; position:absolute; top: 46px; left: 51px;line-height: 37px;}
+.slide_014 .step1, .slide_014 .step2, .slide_014 .step3, .slide_014 .step4, .slide_014 .step5, .slide_014 .step6, .slide_014 .step7, .slide_014 .step8{display:none;}
+.slide_014 .footnote{position:absolute;top: 519px; left: 168px; font-size: 22px;width: 1100px; height:100px;}
+.slide_014 .footnote div:nth-child(1){background:url(../images/bullet_1.png) no-repeat; position:absolute; top:0px;height:100px;padding: 24px 45px;}
+.slide_014 .footnote div:nth-child(2){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 43px;height:100px;padding: 21px 45px;}

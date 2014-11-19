@@ -1,0 +1,24 @@
+.slide_017 #head2, .slide_017 #mainEN{ display:none;}
+.slide_017 .btnVN, .slide_017 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_017 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_017 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_017 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_017 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_017 .board{background:url(../images/board.png) no-repeat; position:absolute; width:936px; height:425px; top: 176px; left: 151px;}
+.slide_017 .board table{position:absolute; top: 18px; left:10px;text-align: center;font-size: 19px;}
+.slide_017 .bg_pu p{text-align:left; font-size: 30px; position:absolute; top: 98px; left: 74px;width: 600px;}
+
+.slide_017 #head1{
+/* font: 28px 'mypro_sb'; */
+color: #ff6c00;
+right: 5px;
+top: -16px;
+position: absolute;
+width: 1090px;
+text-align:right
+}

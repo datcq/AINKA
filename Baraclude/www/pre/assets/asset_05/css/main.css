@@ -1,0 +1,68 @@
+
+.asset_05 .men {
+	width: 567px;
+	height: 600px;	
+	background: url(../images/men.png) no-repeat;
+	left: 688px;
+	top: 152px;	
+	z-index:6;	
+}
+
+
+.asset_05 .img1 { 
+	width: 776px;
+	height: 27px;
+	left: 124px;
+	top: 171px;
+	background: url(../images/img1.png) no-repeat;
+	z-index:5;
+	display: none;
+}
+
+.asset_05 .img2 { 
+	width: 928px;
+	height: 479px;
+	left: 59px;
+	top: 184px;
+	z-index:4;
+	background: url(../images/img2.png) no-repeat;
+	background-position: 0px -510px;
+	-webkit-transition: background-position 0.5s ease;
+}
+
+.asset_05 .img2.ani { 
+	background-position: 0px 0px;	
+}
+
+
+.asset_05 .txt1 {
+	width: 679px;
+	height: 365px;	
+	background: url(../images/txt1.png) no-repeat;
+	left: 171px;
+	top: 216px;
+	z-index:5;
+	display: none;
+}
+.asset_05 .txt2 {
+	width: 677px;
+	height: 130px;	
+	background: url(../images/txt2.png) no-repeat;
+	left: 171px;
+	top: 216px;	
+	z-index:5;
+	display: none;		
+}
+.asset_05 .btn1, .asset_05 .btn2{z-index:6;}
+.asset_05 .btn1 {
+	width: 154px;
+	height: 58px;	
+	left: 178px;
+	top: 212px;		
+}
+.asset_05 .btn2 {
+	width: 217px;
+	height: 58px;	
+	left: 348px;
+	top: 212px;		
+}

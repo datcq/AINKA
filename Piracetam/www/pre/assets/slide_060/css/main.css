@@ -1,0 +1,18 @@
+.slide_060 #head2, .slide_060 #mainEN{ display:none;}
+	
+.slide_060 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_060 .btn_on{display:none;}
+.slide_060 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_060 .bg1{background:url(../images/bg1.jpg) no-repeat; display:none; z-index:1}
+
+.slide_060 .lamp, .slide_060 .lamp_en{position:absolute; top: 23px; left: 212px; width:776px; height:507px; z-index:10}
+	.slide_060 .lamp{background:url(../images/lamp.png) no-repeat; }
+	.slide_060 .lamp_en{background:url(../images/lamp_en.png) no-repeat;}
+
+.slide_060 .lamp1, .slide_060 .lamp1_en{position:absolute; top: 23px; left: 20px; width:1042px; height:576px;display:none; z-index:10}
+	.slide_060 .lamp1{background:url(../images/lamp1.png) no-repeat; }
+	.slide_060 .lamp1_en{background:url(../images/lamp1_en.png) no-repeat;}

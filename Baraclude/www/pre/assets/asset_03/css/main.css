@@ -1,0 +1,28 @@
+.asset_03 .img1 { 
+	width: 582px;
+	height: 23px;
+	left: 108px;
+	top: 172px;
+	background: url(../images/img1.png) no-repeat;
+	display: none;
+}
+.asset_03 .img2 { 
+	width: 1139px;
+	height: 510px;
+	left: 61px;
+	top: 153px;
+	background: url(../images/img2.png) no-repeat;
+}
+.asset_03 .img3 { 
+	width: 695px;
+	height: 479px;
+	left: 59px;
+	top: 184px;
+	background: url(../images/img3.png) no-repeat;
+	background-position: 0px -510px;
+	-webkit-transition: background-position 0.5s ease;
+}
+
+.asset_03 .img3.ani { 
+	background-position: 0px 0px;	
+}

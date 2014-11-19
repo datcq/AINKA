@@ -1,0 +1,57 @@
+.slide_005 #head2, .slide_005 #mainEN{ display:none;}
+.slide_005 .btnVN, .slide_005 .btnEN{ width:50px; height:50px; top: 35px;}
+	.slide_005 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 10px;}
+	.slide_005 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 50px;}
+	
+.slide_005 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_005 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_005 .prod{background:url(../images/prod.png) no-repeat; position:absolute; width:654px; height:590px;
+top: 116px;left: 621px;}
+.slide_005 .img_main{background:url(../images/img_main.png) no-repeat;}
+.slide_005 #tabmenu{position:absolute;z-index:40;top: 77px;left: 628px; font-size: 21px;line-height: 45px;}
+.slide_005 #tabmenu div {width: 410px;height: 50px;margin: 23px 0px;top: 88px;position: relative;z-index: 40; text-align:center;}
+.slide_005 #tabmenu div:nth-child(1){margin-left: 1px;}
+.slide_005 #tabmenu div:nth-child(2){margin: -9px 0px 0px 7px;}
+.slide_005 #tabmenu div:nth-child(3){margin: 11px 0px 0px 6px;}
+.slide_005 #tabmenu div:nth-child(4){margin: 18px 0px 0px 6px;}
+.slide_005 #tabmenu div:nth-child(5){margin: 16px 0px 0px 6px;}
+.slide_005 #tabmenu div:nth-child(6){margin: 16px 0px 0px 14px;}
+.slide_005 #tabmenu div:nth-child(7){margin: -434px 0px 0px 9px;}
+.slide_005 #tab_content{position:absolute; width:1280px; height:800px; font-size: 32px;}
+.slide_005 .icontent{ width:745px; height:454px;top: 141px;left: 242px;z-index:49; position:absolute; display:none; background:url(../images/pu.png) no-repeat; opacity:0;}
+
+.slide_005 .main_pu1{background:url(../images/con_pu1.png) no-repeat;position:absolute; width: 639px; height:324px;top: 63px;left: 90px;}
+.slide_005 .main_pu2{background:url(../images/con_pu2.png) no-repeat;position:absolute; width:481px; height:240px;top: 153px;left: 300px;}
+.slide_005 .main_pu3{background:url(../images/con_pu3.png) no-repeat;position:absolute; width: 690px; height:352px;top: 53px;left: 40px; text-align:center;}
+.slide_005 .main_pu4{background:url(../images/con_pu4.png) no-repeat;position:absolute; width:361px; height:241px;top: 123px;left: 340px;text-align: center;}
+.slide_005 .main_pu5{background:url(../images/con_pu5.png) no-repeat;position:absolute; width: 680px; height:256px;top: 103px;left: 50px;text-align: center;text-align: center;}
+.slide_005 .main_pu6{background:url(../images/con_pu6.png) no-repeat;position:absolute; width:371px; height:262px;top: 123px;left: 333px;text-align: center;}
+.slide_005 .main_pu7{background:url(../images/con_pu7.png) no-repeat;position:absolute; width:371px; height:262px;top: 133px;left: 383px;text-align: center;}
+.slide_005 .main_pu1 span {position:absolute; top: 140px; left: 293px;text-align: center;}
+.slide_005 .main_pu2 span {position:absolute; top: 40px; left: -240px;text-align: center;}
+.slide_005 .main_pu3 span {position:absolute; top: 110px; left: 390px;}
+.slide_005 .main_pu4 span {position:absolute; top: 44px; left: -293px;}
+.slide_005 .main_pu5 span {position:absolute; top: 59px; left: 360px;}
+.slide_005 .main_pu6 span {position:absolute; top: 60px; left: -297px;}
+.slide_005 .main_pu7 span {position:absolute; top: 30px; left: -346px;}
+
+.slide_005 .close{position:absolute; width: 90px;height: 90px;top: 178px;left: 880px;z-index:919; display:none;}
+
+
+.slide_005  #mainEN .img_main span {
+position: absolute;
+top: 280px;
+font-size: 30px;
+-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: #216892;-webkit-text-fill-color: #fff;text-align: center;left: -50px;font-family: 'myprob';width: 350px;}
+
+.slide_005  #mainEN .main_pu1 span {position:absolute; top: 60px; left: 273px;text-align: center;width: 330px;}
+.slide_005  #mainEN .main_pu2 span {position:absolute; top: -13px; left: -248px;text-align: center;width: 310px;}
+.slide_005  #mainEN .main_pu3 span {position:absolute; top: 110px; left: 350px;width: 320px;}
+.slide_005  #mainEN .main_pu4 span {position:absolute; top: 4px; left: -293px;width: 320px;}
+.slide_005  #mainEN .main_pu5 span {position:absolute; top: 0px; left: 368px;width: 280px;}
+.slide_005  #mainEN .main_pu6 span {position:absolute; top: 10px; left: -302px;width: 320px;}
+.slide_005  #mainEN .main_pu7 span {position:absolute; top: -12px; left: -346px;width: 320px;}

@@ -1,0 +1,99 @@
+@-webkit-keyframes zoom1 {
+    0%{
+        -webkit-transform: scale(1);
+    }
+    100%{
+        -webkit-transform: scale(1.8);
+    }
+}
+@-webkit-keyframes fade {
+    0%{
+		opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.asset_09 .whole {
+	-webkit-transition: -webkit-transform 0.5s ease;	
+}
+.asset_09 .whole.ani {
+	-webkit-transform: translate3d(0px,0px,0px);	
+}
+.asset_09 .whole.ani2 {
+	-webkit-transform: scale(0.69) translate3d(550px,180px,0px);	
+}
+.asset_09 .board{ 
+	width: 778px;
+	height: 491px;
+	left: 21px;
+	top: 172px;
+	background: url(../images/board.png) no-repeat;
+	-webkit-transform: scale(0.1) translate3d(0px,0px,0px);
+	-webkit-transform-origin: right center;
+	-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s linear;
+	display: none;
+	opacity: 0;
+}
+.asset_09 .board.ani { 
+	-webkit-transform: scale(1) translate3d(0px,0px,0px);
+	opacity: 1;
+}
+.asset_09 .pack{ 
+	width: 547px;
+	height: 278px;
+	left: 261px;
+	top: 230px;
+	background: url(../images/pack.png) no-repeat;
+}
+
+.asset_09 .pill{ 
+	width: 660px;
+	height: 186px;
+	left: 344px;
+	top: 427px;
+	background: url(../images/bill.png) no-repeat;
+	-webkit-transform: scale(0);
+	-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s linear;	
+	opacity: 0;
+}
+.asset_09 .pill.ani {
+	-webkit-transform: scale(1);	
+	opacity: 1;	
+}
+.asset_09 .img1{ 
+	width: 66px;
+	height: 42px;
+	left: 353px;
+	top: 231px;
+	background: url(../images/3x10.png) no-repeat;	
+}
+
+.asset_09 .img2{ 
+	width: 66px;
+	height: 26px;
+	left: 732px;
+	top: 403px;
+	background: url(../images/0.5mg.png) no-repeat;
+}
+.asset_09 .img3{ 
+	width: 167px;
+	height: 27px;
+	left: 366px;
+	top: 452px;
+	background: url(../images/bris.png) no-repeat;
+}
+.asset_09 .img3.ani {
+	-webkit-animation: zoom1 0.5s linear 2 alternate forwards;
+}
+
+.asset_09 .img1.ani, 
+.asset_09 .img2.ani {
+	-webkit-animation: fade 0.5s linear 7 alternate forwards;
+}
+.asset_09 .bara{ 
+	width: 217px;
+	height: 102px;
+	left: 210px;
+	top: 60px;	
+}

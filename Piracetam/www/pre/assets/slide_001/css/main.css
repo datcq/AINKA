@@ -1,0 +1,15 @@
+.slide_001 #head2, .slide_001 #mainEN{ display:none;}
+./*btnVN, .btnEN{ width:50px; height:50px; top: 35px; z-index: 99; display:none;}*/
+	.slide_001 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 10px;}
+	.slide_001 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 69px;}
+/*#menu{display:none;}	*/
+.slide_001 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_001 .bg_black{position:absolute; width:1280px; height:752px; top:0px; left:0px; background-color:rgba(0,0,0,1.00);}
+.slide_001 .box{background:url(../images/box.png) no-repeat; width:338px; height:431px; top:180px; right:200px; position:absolute; display:none;}
+.slide_001 .line{background:url(../images/line.png) no-repeat; width:613px; height:156px; top: 354px; left: 281px; position:absolute;display:none;}
+.slide_001 .lamp{background:url(../images/lamp.png) no-repeat; width:475px; height:455px; top: 0px; left: 47px; position:absolute;display:none;}
+.slide_001 .lamp_ac{background:url(../images/lamp_ac.png) no-repeat; width:475px; height:455px; top: 0px; left: 47px; position:absolute;display:none;}

@@ -1,0 +1,30 @@
+.asset_23_2 .land {
+    width: 494px;
+    height: 268px;  
+    left: 345px;
+    top: 394px; 
+    background: url(../images/bgmap.png) no-repeat; 	
+}
+.asset_23_2 .board {
+	width: 840px;
+	height: 496px;	
+	background: url(../images/board.png) no-repeat;
+	left: 220px;
+	top: 172px;	
+	-webkit-transition: background-position 0.5s ease;
+	background-position: 0px -496px;	
+}
+.asset_23_2 .board.ani {
+	background-position: 0px 0px;
+}
+.asset_23_2 .an {
+	width: 711px;
+	height: 23px;	
+	background: url(../images/an.png) no-repeat;
+	left: 273px;
+	top: 160px;		
+}
+.asset_23_2 .btnBack {
+	left: 1156px;
+	top: 544px;
+}

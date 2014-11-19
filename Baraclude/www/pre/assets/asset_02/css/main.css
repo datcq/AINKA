@@ -1,0 +1,51 @@
+
+.asset_02 .board {
+	width: 1049px;
+	height: 420px;
+	left: 51px;
+	top: 145px;
+	background: url(../images/board.png) no-repeat;
+	display: none;
+}
+
+.asset_02 .globe {
+	left:390px;
+	top:80px;
+	position:absolute !important;
+	display:none;
+	-webkit-transform: scale(0.6);
+	-webkit-transform-origin: 50% 50%;
+}	
+.asset_02 .globe.ani{ -webkit-transition: -webkit-transform 2s;}
+.asset_02 .globe.moveLeft { -webkit-transform: scale(1) translate3d(-670px,60px,0px); }
+
+.asset_02 .img {
+	width: 836px;
+	height: 426px;
+	left: 264px;
+	top: 145px;
+	display: none;
+}
+.asset_02 .img1 {
+	background: url(../images/img1.png) no-repeat;
+}
+.asset_02 .img2 {
+	background: url(../images/img2.png) no-repeat;
+}
+.asset_02 .img3 {
+	background: url(../images/img3.png) no-repeat;
+}
+.asset_02 .img4 {
+	background: url(../images/img4.png) no-repeat;
+}
+.asset_02 .claim {
+	width: 700px;
+	height: 66px;
+	left: 320px;
+	top: 565px;
+	background: url(../images/claim.png) no-repeat;
+	display: none;
+}
+.asset_02 .btnReload{
+	background:url(../images/btnReload.png) no-repeat; width:77px; height:65px; top:536px; left:1070px; display:none;
+}

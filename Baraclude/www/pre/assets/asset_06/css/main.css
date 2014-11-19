@@ -1,0 +1,128 @@
+.asset_06 .head span { 
+    font: 28px 'mypro_sb';
+    color: #fff;
+    left: 313px;
+    top: 15px;
+    position: absolute;
+}
+.asset_06 .board {
+	width: 1017px;
+	height: 516px;	
+	left: 107px;
+	top: 152px;
+	background: url(../images/board.png) no-repeat;
+}
+.asset_06 .clock {
+	width: 238px;
+	height: 238px;	
+	left: 363px;
+	top: 313px;
+	z-index:1;
+	background: url(../images/clock.png) no-repeat;
+}
+
+.asset_06 .hour {
+	width: 238px;
+	height: 238px;	
+	left: 363px;
+	top: 313px;
+	z-index:3;
+	background: url(../images/hour.png) no-repeat;
+}
+.asset_06 .minute {
+	width: 238px;
+	height: 238px;	
+	left: 363px;
+	top: 313px;
+	z-index:2;
+	background: url(../images/minute.png) no-repeat;
+}
+
+.asset_06 .s1 {
+	width: 637px;
+	height: 301px;	
+	left: 329px;
+	top: 194px;
+	background: url(../images/tab1.png) no-repeat;
+}
+.asset_06 .tab1Txt {
+	width: 330px;
+	height: 164px;	
+	left: 312px;
+	top: 155px;
+	background: url(../images/tab1Txt.png) no-repeat;
+	display: none;
+}
+.asset_06 .tab2 {
+	width: 825px;
+	height: 376px;	
+	left: 210px;
+	top: 194px;
+	background: url(../images/tab2.png) no-repeat;
+	display: none;
+}
+.asset_06 .btn {
+	width: 150px;
+	height: 56px;	
+	top: 191px;
+}
+.asset_06 .btn1 {
+	left: 346px;
+}
+.asset_06 .btn2 {
+	left: 746px;
+}
+.asset_06 .btnBack {
+	left: 1191px;
+	top: 394px;	
+}
+.asset_06 .s3 {
+	width: 1221px;
+	height: 516px;	
+	left: 0px;
+	top: 152px;
+	background: url(../images/s3.png) no-repeat;
+	display: none;
+}
+.asset_06 .bntCt {	
+	left: 316px;
+	top: 168px;
+}
+.asset_06 .bntCt > div {	
+	width: 276px;
+	height: 47px;
+}
+.asset_06 .line {	
+	display: none;
+}
+.asset_06 .line1 { width: 417px; height: 17px; left: 653px; top: 183px; background: url(../images/line1.png) no-repeat; }
+.asset_06 .line2 { width: 417px; height: 17px; left: 653px; top: 231px; background: url(../images/line2.png) no-repeat; }
+.asset_06 .line3 { width: 437px; height: 17px; left: 643px; top: 279px; background: url(../images/line3.png) no-repeat; }
+.asset_06 .line4 { width: 437px; height: 17px; left: 643px; top: 327px; background: url(../images/line4.png) no-repeat; }
+
+.asset_06 .to11 {
+	width: 192px;
+	height: 41px;	
+	left: 0px;
+	top: 335px;	
+}
+@-webkit-keyframes zoom {
+    0%{
+        text-shadow: 0px 0px 0px #fff;
+		-webkit-transform: scale(1);
+    }
+    100%{
+		text-shadow: 0px 0px 10px #fff;	
+		-webkit-transform: scale(1.1);
+    }
+}
+.asset_06 .tab2Txt {
+	font-size: 19px;
+	font-family: 'mypro_sb';
+	left: 23px;
+	top: 345px;
+	color: #a0015c;
+	text-shadow: 0px 0px 0px #fff;
+	word-spacing: 1px;
+	-webkit-animation: zoom 0.5s linear infinite alternate forwards;
+}

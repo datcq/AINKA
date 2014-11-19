@@ -1,0 +1,56 @@
+.asset_25 .board  { 
+	width: 1199px;
+	height: 571px;
+	left: 34px;
+	top: 132px;
+	background: url(../images/board.png) no-repeat;
+}
+.asset_25 .qRow {
+	position: absolute;
+	width: 430px;
+}
+.asset_25 .row1 {
+	left: 223px;
+	top: 262px;
+}
+.asset_25 .row2 {
+	left: 223px;
+	top: 403px;
+}
+.asset_25 .row3 {
+	left: 223px;
+	top: 553px;
+}
+.asset_25 .row4{
+	left: 723px;
+	top: 287px;
+}
+.asset_25 .row5{
+	left: 723px;
+	top: 454px;
+}
+.asset_25 .qRow div  { 
+	width: 33px;
+	height: 33px;
+	background: url(../images/check.png) no-repeat;
+	float: left;
+	padding-right: 170px;
+	margin-bottom: 12px;
+}
+.asset_25 .qRow div.checked  { 
+	background: url(../images/checked.png) no-repeat;
+}
+.asset_25 .reset  { 
+	width: 83px;
+	height: 36px;
+	left: 977px;
+	top: 542px;
+	background: url(../images/reset.png) no-repeat;
+}
+.asset_25 .result  { 
+	width: 83px;
+	height: 36px;
+	left: 1066px;
+	top: 542px;
+	background: url(../images/result.png) no-repeat;
+}

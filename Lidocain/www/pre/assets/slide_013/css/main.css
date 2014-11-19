@@ -1,0 +1,35 @@
+.slide_013 #head2, .slide_013 #mainEN{ display:none;}
+.slide_013 .btnVN, .slide_013 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_013 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_013 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_013 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_013 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_013 .board{background:url(../images/board.png) no-repeat; position:absolute; width:851px; height:441px; top: 139px; left: 170px;-webkit-transform: scale(0.9);}
+.slide_013 .chart{background:url(../images/chart.png) no-repeat; position:absolute; width:243px; height:0px; bottom: 155px; left: 198px;-webkit-transition: height 1s;}
+.slide_013 .chart.ani{ height:213px;}
+.slide_013 .txt_chart {position:absolute;font-size:20px; width:300px; text-align:center;}
+.slide_013 .txt_chart1{left: 74px; top: 297px; }
+.slide_013 .txt_chart2{left: -49px; top: 155px; -webkit-transform: rotate(-90deg);}
+.slide_013 .txt_chart3{left: 169px; top: 297px; }
+.slide_013 .txt_chart4{left: 266px; top: 297px; }
+.slide_013 .txt_legend {position:absolute;font-size: 18px; width: 230px; text-align: left;left: 538px; top: 127px;line-height: 28px;}
+.slide_013 .footnote{position:absolute;top: 508px; left: 162px; font-size: 20px;width: 1060px; height:100px;}
+.slide_013 .footnote div:nth-child(1){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 0px;height:100px;padding: 20px 45px;}
+.slide_013 .footnote div:nth-child(2){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 48px;height:100px;padding: 21px 45px;}
+.slide_013 .bg_pu p{text-align:left; font-size: 30px; position:absolute; top: 98px; left: 74px;width: 550px;}
+
+.slide_013 #mainEN .footnote {
+position: absolute;
+top: 508px;
+left: 242px;}
+
+.slide_013 #mainEN .txt_legend{position:absolute; top: 135px; left: 538px;}
+.slide_013 #mainEN .txt_legend span:nth-child(1){position:absolute; top: -5px; left:0px;}
+.slide_013 #mainEN .txt_legend span:nth-child(2){position:absolute; top: 27px; left:0px;line-height: 18px;}
+.slide_013 #mainEN .txt_legend span:nth-child(3){position:absolute; top: 63px; left:0px;}
+.slide_013 #mainEN .board{background:url(../images/board_en.png) no-repeat; position:absolute; width:851px; height:441px; top: 119px; left: 170px;-webkit-transform: scale(0.8);}

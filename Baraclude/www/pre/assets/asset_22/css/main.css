@@ -1,0 +1,12 @@
+
+.asset_22 .board  {
+    width: 880px;
+    height: 507px; 
+    left: 200px;	
+    top: 157px;     
+    background: url(../images/board.png) no-repeat;	
+}
+.asset_22 .btnBack {
+	left: 1156px;
+	top: 544px;
+}

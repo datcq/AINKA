@@ -1,0 +1,305 @@
+
+.slide_033 #chart1 {
+	background-image: url(../images/line1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 210px;
+	width: 370px;
+	left: 131px;
+	top: 222px;
+	/*z-index:20;*/
+}
+.slide_033 .bgpu p {
+top: 247px;}
+.slide_033 #chart2 {
+
+	background: url(../images/line2.png) no-repeat;
+	position: absolute;
+	height: 230px;
+	width: 412px;
+	top: 204px;
+	right: 149px;
+}
+.slide_033 .lamp1 {
+	background-image: url(../images/lamp_1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 40px;
+	width: 200px;
+	left: 218px;
+top: 135px;
+}
+
+.slide_033 .light {
+	position: absolute;
+	height: 460px;
+	width: 620px;
+	left: 0px;
+top: 84px;
+	background-image: url(../images/light_1.png);
+	background-repeat: no-repeat;
+	opacity:0;
+}
+.slide_033 .lamp2 {
+	background-image: url(../images/lamp_1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 40px;
+	width: 200px;
+	right: 254px;
+	top: 136px;
+}
+.slide_033 .light2 {
+	position: absolute;
+	height: 460px;
+	width: 730px;
+	right: -59px;
+top: 86px;
+	background-image: url(../images/light_1.png);
+	background-repeat: no-repeat;
+	opacity:0;
+}
+.slide_033 .legend1 {
+	background-image: url(../images/legend1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 20px;
+	width: 90px;
+	left: 33px;
+bottom: -57px;
+}
+
+.slide_033 .legend2 {
+	background-image: url(../images/legend2_en.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 20px;
+	width: 130px;
+	right: 293px;
+bottom: -56px;
+}
+.slide_033 #mainEN .legend2 {
+	background-image: url(../images/legend2_en.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 20px;
+	width: 130px;
+	right: 293px;
+	bottom: -56px;
+}
+.slide_033 #mainEN .t-chart3 {
+position: absolute;
+height: 10px;
+width: 70px;
+font-size: 10px;
+color: #000000;
+top: 265px;
+left: 95px;
+}
+.slide_033 #mainEN .t-chart2 {
+position: absolute;
+height: 10px;
+width: 70px;
+font-size: 10px;
+color: #000000;
+top: 265px;
+left: 4px;
+}
+
+.slide_033 #mainEN  .text4 {
+font-size: 14px;
+color: #000000;
+position: absolute;
+height: 20px;
+width: 205px;
+right: 341px;
+top: 92px;
+-webkit-transform: rotate(-90deg);
+}.slide_033 #congtac {
+	background-image: url(../images/congtac.png);background-repeat: no-repeat;
+	position: absolute;
+	height: 65px;
+	width: 65px;
+	top: 352px;
+right: 31px;
+}
+.slide_033 .title {
+	font-weight:bold;
+	font-size:25px;
+	color:#FFFFFF;
+	text-align: justify;
+	position: absolute;
+	height: 65px;
+	width: 750px;
+	left: 29px;
+	top: 13px;
+}
+.slide_033 .t-leg1 {
+	font-size: 10px;
+	color: #000000;
+	position: absolute;
+	height: 10px;
+	width: 60px;
+	left: 48px;
+top: 249px;
+}
+.slide_033 .t-leg2 {
+	font-size: 10px;
+	color: #000000;
+	position: absolute;
+	height: 10px;
+	width: 60px;
+	left: 121px;
+top: 249px;
+}
+.slide_033 .t-chart2 {
+	position: absolute;
+	height: 10px;
+	width: 70px;
+	font-size: 10px;
+	color: #000000;
+	top: 265px;
+
+	left: 6px;
+
+}
+.slide_033 .t-chart3 {
+	position: absolute;
+	height: 10px;
+	width: 70px;
+	font-size: 10px;
+	color: #000000;
+	top: 265px;
+
+	left: 96px;
+
+}
+
+.slide_033 .bar1 {
+	background-image: url(../images/bar_chart1.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 0;
+	width: 248px;
+	left: 71px;
+	z-index: 10;
+	bottom:5px;
+-webkit-transition: height 1s ease;}
+
+.slide_033 .bar1.ani{height:174px;}
+
+.slide_033 .bar2 {
+	background-image: url(../images/bar_chart2.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 0;
+	width: 370px;
+	left: 40px;
+	bottom: 9px;
+-webkit-transition: height 1s ease;}
+
+.slide_033 .bar2.ani{height:191px;}
+.slide_033 .text1 {
+	font-size: 14px;
+	color: #000000;
+	position: absolute;
+	height: 15px;
+	width: 120px;
+	left: 71px;
+
+	top: 218px;
+}
+.slide_033 .text2 {
+	font-size: 14px;
+	color: #000000;
+	position: absolute;
+	height: 15px;
+	width: 120px;
+	left: 226px;
+
+	top: 217px;
+}
+.slide_033 .text3 {
+	font-size: 14px;
+	color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 215px;
+	left: -138px;
+top: 73px;
+	-webkit-transform: rotate(-90deg);
+}
+.slide_033 .text4 {
+	font-size: 14px;
+	color: #000000;
+	position: absolute;
+	height: 20px;
+	width: 175px;
+	right: 359px;
+	top: 92px;
+	-webkit-transform: rotate(-90deg);
+}
+.slide_033 .text5{
+	text-align:center;
+	font-size: 10px;
+	color: #000000;
+	position: absolute;
+	height: 11px;
+	width: 410px;
+	right: -20px;
+bottom: -13px;
+
+}
+.slide_033 .line-text{float:left;width:80px;
+height:10px;}
+
+.slide_033 .foot1 {
+	font-size: 20px;
+	color: #6d1308;
+	position: absolute;
+	height: 90px;
+	width: 550px;
+	left: 105px;
+
+	bottom: -101px;
+}
+
+
+.slide_033 .foot2 {
+	
+	font-size: 20px;
+	color: #6D1308;
+	position: absolute;
+	height: 90px;
+	width: 550px;
+	right: 28px;
+	bottom: -101px;
+}
+.slide_033 .board1 {position:absolute;top: -29px; left: 30px; width:500px;height:500px;}
+.slide_033 .board2 {position:absolute;top: -29px; left: 760px; width:500px;height:500px;}
+.slide_033 .board2, .slide_033 .board1, .slide_033 #mainEN .board2, .slide_033 #mainEN .board1 {
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	z-index:100;
+}
+.slide_033 .board1.act {
+	-webkit-transform: scale(1.1) translate3d(271px,-15px,0px);
+}
+.slide_033 .board1.out {
+	-webkit-transform: scale(0.6) translate3d(-200px,40px,0px);
+}
+.slide_033 .board2.act { 
+	-webkit-transform: scale(1.1) translate3d(-212px,10px,0px);
+}
+.slide_033 .board2.out {
+	-webkit-transform: scale(0.6) translate3d(270px,-110px,0px);
+}
+.slide_033 .light_ye{background:url(../images/light_ye.png) no-repeat; position:absolute; width:1005px; height:551px; top:100px; left:100px; z-index:90; display:none;}
+
+
+.slide_033 #mainEN .text3 {font-size: 14px;color: #000000;position: absolute;height: 20px;width: 215px;left: -138px;top: 34px;-webkit-transform: rotate(-90deg);}
+
+
+slide_033 #mainEN .foot2 {font-size: 18px;color: #6D1308;position: absolute;height: 90px;width: 550px;right: 46px;bottom: 169px;}
+.slide_033 #mainEN .foot2 {font-size: 18px;color: #6D1308;position: absolute;height: 90px;width: 550px;right: 46px;bottom: -81px;}
+
+.slide_033 #mainEN .foot1 {font-size: 18px;color: #6d1308;position: absolute;height: 90px;width: 550px;left: 115px;bottom: -91px;}

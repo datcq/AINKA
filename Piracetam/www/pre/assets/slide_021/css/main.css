@@ -1,0 +1,20 @@
+.slide_021 #head2, .slide_021 #mainEN{ display:none;}
+.slide_021 .btnVN, .slide_021 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_021 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_021 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+.slide_021 .head div span#head2{ top:-22px; position:absolute; width:700px;}
+.slide_021 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_021 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_021 .board, .slide_021 .board_en{position:absolute; top: 190px; left: 47px; width:715px; height: 412px; z-index:5;}
+.slide_021 .board{background:url(../images/board.png) no-repeat;}
+.slide_021 .board_en{background:url(../images/board_en.png) no-repeat;}
+
+
+.slide_021 .img{background:url(../images/img.png) no-repeat; position:absolute; top: 123px; left: 818px; width:332px; height:288px;}
+.slide_021 .lamp{background:url(../images/lamp.png) no-repeat; position:absolute; top: 125px; left: 176px; width: 461px; height:55px;}
+.slide_021 .light{background:url(../images/light.png) no-repeat; position:absolute; top: 98px; left: 0px; width:914px; height:470px;z-index:3; display:none;}
+.slide_021 .txt_r{position:absolute; top: 424px; left: 836px; font-size: 20px; color:#6d1308;width: 410px;}

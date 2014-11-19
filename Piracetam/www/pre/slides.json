@@ -1,0 +1,153 @@
+[
+    {
+		"est": 2,
+        "id": 1,
+        "name": "slide_001",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 2,
+        "name": "slide_002",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 7,
+        "name": "slide_007",
+        "title": "Chỉ định"
+    },
+	{
+		"est": 2,
+        "id": 15,
+        "name": "slide_015",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 16,
+        "name": "slide_016",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 21,
+        "name": "slide_021",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 23,
+        "name": "slide_023",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 25,
+        "name": "slide_025",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 29,
+        "name": "slide_029",
+        "title": ""
+    },
+	{
+		"est": 2,
+        "id": 32,
+        "name": "slide_032",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 33,
+        "name": "slide_033",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 37,
+        "name": "slide_037",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 40,
+        "name": "slide_040",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 43,
+        "name": "slide_043",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 45,
+        "name": "slide_045",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 48,
+        "name": "slide_048",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 49,
+        "name": "slide_049",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 50,
+        "name": "slide_050",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 53,
+        "name": "slide_053",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 56,
+        "name": "slide_056",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 57,
+        "name": "slide_057",
+        "title": ""
+    },
+    {
+	"est": 2,
+        "id": 60,
+        "name": "slide_060",
+        "title": "Dung nạp tốt"
+    },
+    {
+	"est": 2,
+        "id": 62,
+        "name": "slide_062",
+        "title": "Tối ưu hóa liều"
+    },
+    {
+	"est": 2,
+        "id": 64,
+        "name": "slide_064",
+        "title": "Ưu điểm"
+    },
+    {
+	"est": 2,
+        "id": 66,
+        "name": "slide_066",
+        "title": "Câu hỏi"
+    }
+	
+]

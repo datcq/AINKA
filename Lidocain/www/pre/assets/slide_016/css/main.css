@@ -1,0 +1,29 @@
+.slide_016 #head2, .slide_016 #mainEN{ display:none;}
+
+	
+.slide_016 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_016 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_016 .btnAnswer {background:url(../images/btnKQ.png) no-repeat; width:48px; height:48px; left:1120px; top:545px; position:absolute; z-index:11;}
+.slide_016 .btnReload {background:url(../images/btnReload.png) no-repeat; width:48px; height:48px; left:1170px; top:545px; position:absolute; z-index:11;}
+
+.slide_016 .btnClose{ width: 75px; height: 85px; right: 240px; top: 21px; position:absolute; z-index:11;}
+
+.slide_016 .board{background:url(../images/board.png) no-repeat; position:absolute; width:939px; height:475px; top: 120px; left: 163px;}
+
+.slide_016 .boardAnswer {background:url(../images/pu.png) no-repeat; position:absolute; width:939px; height:475px; top: 130px; left: 263px; z-index:10; display:none;font-size: 20px;padding: 20px; color:#ff8024}
+
+.slide_016 .board table{position:absolute; top: 40px;left: 67px;font-size: 18px;line-height: 39px;}
+.slide_016 #textfield, .slide_016 #textfield2, .slide_016 #textfield3, .slide_016 #textfield4, .slide_016 #textfield5 {position:relative; height:25px;}
+
+
+.slide_016 .info:nth-child(2) { margin: 30px 0px 0px 40px; }
+.slide_016 .info:nth-child(3) { margin: 10px 0px 0px 40px; }
+.slide_016 .info:nth-child(4) { margin: 10px 0px 0px 40px; }
+
+.slide_016 .answerCt { margin: 20px 0px 0px 40px;  }
+
+.slide_016 .ans6 { margin: 50px 0px 0px 0px;  }

@@ -1,0 +1,30 @@
+.slide_019 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+
+.slide_019 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_019 .prod{background:url(../images/prod.png) no-repeat; position:absolute; width:726px; height:427px; top: 226px; left: 201px; z-index:6;}
+.slide_019 .txt1{position:absolute; top:152px; right: 89px; font-size: 60px;text-shadow: 2px 1px #000;}
+.slide_019 .txt1 p{text-shadow: none;position: absolute;top: 43px;right: 0px; font-size:25px;}
+.slide_019 .circle{position:absolute; width: 231px;height: 224px; left:280px; font-size: 25px;text-align:center;				/*-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #fff;*/
+    -webkit-text-fill-color: #ff6c00;}
+.slide_019 .circle1 span{ position: absolute; top: 40px; font-size: 24px; left: 17px; width: 190px;}
+.slide_019 .circle2 span{ position: absolute; top: 60px; font-size: 24px; left: 33px; width: 160px;}
+.slide_019 .circle3 span{ position: absolute; top: 76px; font-size: 24px; left: 48px; width: 135px;}
+.slide_019 .circle4 span{ position: absolute; top: 80px; font-size: 24px; left: 28px; width: 175px;}
+.slide_019 .circle .txt5{ position: absolute; top: 74px !important; font-size: 24px; left: 8px; width: 220px;}
+.slide_019 .circle1{background:url(../images/circle_05.png) no-repeat; top: 402px;left: 215px;}
+.slide_019 .circle2{background:url(../images/circle_05.png) no-repeat; top: 151px;left: 184px;}
+.slide_019 .circle3{background:url(../images/circle_05.png) no-repeat; top: 61px;left: 527px;}
+.slide_019 .circle4{background:url(../images/circle_05.png) no-repeat; top: 140px;left: 873px;}
+.slide_019 .circle5{background:url(../images/circle_05.png) no-repeat; top: 407px;left: 844px;}
+
+
+.slide_019 #mainEN .circle1 span{ position: absolute; top: 84px; font-size: 24px; left: 17px; width: 190px;}
+.slide_019 #mainEN .circle2 span{ position: absolute; top: 51px; font-size: 24px; left: 33px; width: 160px;}
+.slide_019 #mainEN .circle3 span{ position: absolute; top: 63px; font-size: 24px; left: 51px; width: 125px;}
+.slide_019 #mainEN .circle4 span{ position: absolute; top: 70px; font-size: 24px; left: 28px; width: 175px;}
+.slide_019 #mainEN .circle .txt5{ position: absolute; top: 59px !important; font-size: 24px; left: 8px; width: 220px;}

@@ -1,0 +1,60 @@
+.slide_007 #head2, .slide_007 #mainEN{ display:none;}
+.slide_007 .btnVN, .slide_007 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_007 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_007 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_007 .mainCt{width:1280px;height:752px;}
+	
+.slide_007 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_007 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_007 .lamp{position:absolute; background:url(../images/lamp.png) no-repeat;width:217px; height:297px;}
+.slide_007 .lamp1{top: 80px; left: 89px;}
+.slide_007 .lamp2{top: 96px; left: 242px;}
+.slide_007 .lamp3{top: 88px; left: 397px;}
+.slide_007 .lamp4{top: 60px; left: 554px;}
+.slide_007 .lamp5{top: 29px; left: 708px;}
+.slide_007 .lamp6{top: 0px; left: 860px;}
+.slide_007 .lamp7{top: 0px; left: 1018px;}
+
+.slide_007 .lamp_ac span{position:absolute; font-size: 22px; color:#ff8208; text-align:center; width: 150px;}
+.slide_007 .lamp_ac1 span{top: 290px; left: 29px;}
+.slide_007 .lamp_ac2 span{top: 279px; left: 31px;}
+.slide_007 .lamp_ac3 span{top: 277px; left: 29px;}
+.slide_007 .lamp_ac4 span{top: 270px; left: 39px;}
+.slide_007 .lamp_ac5 span{top: 275px; left: 32px;}
+.slide_007 .lamp_ac6 span{top: 277px; left: 35px;}
+.slide_007 .lamp_ac7 span{top: 275px; left: 31px;}
+
+
+.slide_007 .lamp_ac{position:absolute; background:url(../images/lamp_ac.png) no-repeat;width:217px; height:297px;display:none;}
+.slide_007 .lamp_ac1{top: 80px; left: 89px;}
+.slide_007 .lamp_ac2{top: 96px; left: 242px;}
+.slide_007 .lamp_ac3{top: 88px; left: 397px;}
+.slide_007 .lamp_ac4{top: 60px; left: 554px;}
+.slide_007 .lamp_ac5{top: 29px; left: 708px;}
+.slide_007 .lamp_ac6{top: 0px; left: 860px;}
+.slide_007 .lamp_ac7{top: 0px; left: 1018px;}
+
+.slide_007 .battery{background:url(../images/bartery.png) no-repeat; width:477px; height:90px; top: 477px; left:0px; position:absolute;}
+.slide_007 .img_drug{background:url(../images/img_drug.png) no-repeat; width:0px; height:65px; top: 9px; left: 235px; position:absolute;}
+
+.slide_007 .arrow{background:url(../images/arrow.png) no-repeat; width:126px; height:63px; top: 496px; left: 526px; position:absolute;}
+
+.slide_007 .drug{background:url(../images/drug.png) no-repeat; width:98px; height:66px;position:absolute;top: 491px;z-index:5;}
+.slide_007 .drug1{left: 694px; z-index:12;}
+.slide_007 .drug2{left: 757px; z-index:11;}
+.slide_007 .drug3{left: 819px; z-index:10;}
+.slide_007 .drug4{left: 881px; z-index:9;}
+.slide_007 .drug5{left: 943px; z-index:8;}
+
+/*.slide_007 .drug_wt{background:url(../images/drug2.png) no-repeat; width:37px; height:74px;position:absolute;top: 481px;z-index: 10;}
+.slide_007 .drug_wt1{left: 389px;}
+.slide_007 .drug_wt2{left: 425px;}*/
+
+.slide_007 .crock{background:url(../images/crock1.png) no-repeat; width:79px; height:249px;position:absolute;top: 365px;z-index:5;  }
+.slide_007 .crock1{left: 1023px; z-index:7;}
+.slide_007 .crock2{left: 1078px; z-index:6;}

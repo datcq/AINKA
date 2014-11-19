@@ -1,0 +1,58 @@
+.asset_23 .container_circle {
+	width: 334px;
+	height: 460px;
+	
+}
+.asset_23 .container_circle1{   left: 266px; top: 138px;}
+.asset_23 .container_circle2{	left: 714px; 	top: 222px;}
+.asset_23 .container_circle3{	left: 853px; 	top: 4px;}
+
+.asset_23 .ball1 {
+    width: 316px;
+    height: 290px;  
+    left: 0px;
+    bottom: 230px;  
+	opacity:0;
+    background: url(../images/bubble1.png) no-repeat; 	
+}
+.asset_23 .ball2 {
+    width: 316px;
+    height: 290px;   
+    left: 0px;
+    bottom: 230px;  
+	opacity:0;
+    background: url(../images/bubble2.png) no-repeat; 	
+}
+.asset_23 .ball3 {
+    width: 316px;
+    height: 290px;  
+    left: 0px;
+    bottom: 230px; 
+	opacity:0;
+    background: url(../images/bubble3.png) no-repeat; 	
+}
+.asset_23 .land {
+    width: 494px;
+    height: 268px;  
+    left: 345px;
+    top: 394px; 
+    background: url(../images/bgmap.png) no-repeat; 	
+}
+
+.asset_23 .cont_ball{
+	width:840px; height:508px;
+	top: 160px; left:211px;
+	display:none;
+}
+.asset_23 .cont_ball1{ 
+	background:url(../images/content_bubble1.png) no-repeat;
+}
+.asset_23 .cont_ball2{ 
+	background:url(../images/content_bubble2.png) no-repeat;
+}
+.asset_23 .cont_ball .close{
+	width:50px; height:50px;
+	top: 16px; 
+	left: 686px; 
+	position: absolute;
+}

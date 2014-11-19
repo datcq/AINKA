@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'mypro';
+	src: url('../fonts/mypro.otf');
+}
+
+@font-face {
+	font-family: 'mypro_ita';
+	src: url('../fonts/mypro_italic.otf');
+}
+
+@font-face {
+	font-family: 'myprob';
+	src: url('../fonts/mypro_bold.otf');
+}
+
+@font-face {
+	font-family: 'myprob_ita';
+	src: url('../fonts/mypro_bolditalic.otf');
+}
+
+@font-face {
+	font-family: 'mypro_sb';
+	src: url('../fonts/mypro_semibold.otf');
+}
+
+@font-face {
+	font-family: 'mypro_sb_ita';
+	src: url('../fonts/mypro_semibolditalic.otf');
+}

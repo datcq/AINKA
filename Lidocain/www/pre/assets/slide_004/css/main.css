@@ -1,0 +1,58 @@
+.slide_004 #head2, .slide_004 #mainEN{ display:none;}
+.slide_004 .btnVN, .slide_004 .btnEN{ width:50px; height:50px; top: 110px;}
+ .slide_004 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+ .slide_004 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+ 
+.slide_004 .claimM {
+ left: 175px;
+ top: 585px;
+    font-size: 18px;
+}
+.slide_004 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_004 .board{background:url(../images/board.png) no-repeat; position:absolute; width:901px; height:441px; top: 135px; left: 170px;}
+.slide_004 .chart{background:url(../images/chart.png) no-repeat; position:absolute; width:481px; height:0px; bottom: 155px; left: 233px;-webkit-transition: height 1s;}
+.slide_004 .chart.ani{ height:160px;}
+.slide_004 .txt_chart {position:absolute; top: 70px; font-size:20px; width:300px; text-align:center;}
+.slide_004 .txt_chart1{left: 109px;}
+.slide_004 .txt_chart2{left: 541px;}
+.slide_004 .footnote{position:absolute;top: 531px; left: 297px; font-size: 23px;width: 960px; height:100px;}
+.slide_004 .footnote div:nth-child(1){background:url(../images/bullet_1.png) no-repeat; position:absolute; top:0px;height:100px;padding: 20px 45px;}
+.slide_004 .footnote div:nth-child(2){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 43px;height:100px;padding: 21px 45px;}
+.slide_004 .bg_pu p{text-align:left; font-size: 30px; position:absolute; top: 101px; left: 110px;width: 530px;}
+
+.slide_004 .footnote_pu{position:absolute;top: 501px; left: 297px; font-size: 23px;width: 840px; height:100px;}
+.slide_004 .footnote_pu div:nth-child(1){background:url(../images/bullet_1.png) no-repeat; position:absolute; top:0px;height:100px;padding: 20px 45px;}
+.slide_004 .footnote_pu div:nth-child(2){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 43px;height:100px;padding: 21px 45px;}
+.slide_004 .footnote_pu div:nth-child(3){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 81px;height:100px;padding: 21px 45px;}
+
+.slide_004 .btn_next{background:url(../images/btn_next.png) no-repeat; width:50px; height:50px; top: 560px; right: 1200px;x;position:absolute;background-size:50px 50px; display:none;}
+.slide_004 .btn_back{background:url(../images/btn_back.png) no-repeat; width:50px; height:50px; top: 560px; right: 1200px;position:absolute; display:none;background-size:50px 50px;}
+.slide_004 .bg_pu2 {position:absolute; width:1280px; height:752px; top: 0px; left: 0px; display:none;}
+.slide_004 .ppl{background:url(../images/ppl.png) no-repeat; width:898px; height:482px; top: 160px; right: 190px;position:absolute; }
+.slide_004 .prod{background:url(../images/prod.png) no-repeat; width:374px; height:257px; top: 229px; right: 238px;position:absolute; z-index: 10;}
+.slide_004 .img1{background:url(../images/img1.png) no-repeat; width:217px; height:281px; top: 160px; right: 710px;position:absolute;display:none; }
+.slide_004 .img2{background:url(../images/img2.png) no-repeat; width:217px; height:281px; top: 160px; right: 710px;position:absolute; opacity:0;}
+.slide_004 .spray{background:url(../images/spray.png) no-repeat; width:300px; height:164px; top: 252px; right: 600px;position:absolute; display:none;}
+@-webkit-keyframes slide_004_img2 { 
+    0% { opacity: 0; } 
+    100% {opacity: 1; } 
+	} 
+.slide_004 .slide_004_img2 { -webkit-animation: slide_004_img2 2s ease-in-out forwards; }
+
+
+
+
+
+
+
+.slide_004 #mainEN #mainEN .bg_pu2 {position:absolute; width:1280px; height:752px; top: 0px; left: 0px; display:none;}
+.slide_004 #mainEN .ppl{background:url(../images/ppl.png) no-repeat; width:898px; height:482px; top: 160px; right: 190px;position:absolute; }
+.slide_004 #mainEN .prod{background:url(../images/prod.png) no-repeat; width:374px; height:257px; top: 229px; right: 238px;position:absolute; z-index: 10;}
+.slide_004 #mainEN .img1{background:url(../images/img1.png) no-repeat; width:217px; height:281px; top: 160px; right: 710px;position:absolute;display:none; }
+.slide_004 #mainEN .img2{background:url(../images/img2.png) no-repeat; width:217px; height:281px; top: 160px; right: 710px;position:absolute; opacity:0;}
+.slide_004 #mainEN .spray{background:url(../images/spray.png) no-repeat; width:300px; height:164px; top: 252px; right: 600px;position:absolute; display:none;}
+@-webkit-keyframes slide_004_img2 { 
+    0% { opacity: 0; } 
+    100% {opacity: 1; } 
+	} 
+.slide_004 #mainEN .slide_004_img2 { -webkit-animation: slide_004_img2 2s ease-in-out forwards; }

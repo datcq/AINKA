@@ -1,0 +1,34 @@
+.slide_020 #head2, .slide_020 #mainEN{ display:none;}
+.slide_020 .btnVN, .slide_020 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_020 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_020 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_020 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_020 .head div {
+font: 28px 'mypro_sb';
+color: #ff6c00;
+right: 15px;
+top: 9px;
+position: absolute;
+text-align: right;
+}
+.slide_020 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_020 .board{background:url(../images/board.png) no-repeat; position:absolute; width:851px; height:441px; top: 139px; left: 170px;-webkit-transform: scale(0.9);}
+.slide_020 .chart{background:url(../images/chart.png) no-repeat; position:absolute; width:288px; height:0px; bottom: 127px; left: 241px;-webkit-transition: height 1s;}
+.slide_020 .chart.ani{ height:201px;}
+.slide_020 .txt_chart {position:absolute;font-size:20px; width:300px; text-align:center;}
+.slide_020 .txt_chart1{left: 142px; top: 343px; }
+.slide_020 .txt_chart2{left: -28px; top: 185px; -webkit-transform:rotate(-90deg);}
+.slide_020 .txt_chart3{left: 331px; top: 343px; }
+.slide_020 .txt_chart4{left: 288px; top: 323px; }
+.slide_020 .txt_legend {position:absolute;font-size: 18px; width: 230px; text-align: left;left: 642px; top: 140px;line-height: 28px;}
+.slide_020 .footnote{position:absolute;top: 555px; left: 162px; font-size: 20px;width: 1060px; height:100px;}
+.slide_020 .footnote div:nth-child(1){background:url(../images/bullet_1.png) no-repeat; position:absolute; top:0px;height:100px;padding: 20px 45px;}
+.slide_020 .footnote div:nth-child(2){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 48px;height:100px;padding: 21px 45px;}
+.slide_020 .bg_pu p{text-align:left; font-size: 30px; position:absolute; top: 98px; left: 74px;width: 540px;}
+
+.slide_020 #mainEN .board{background:url(../images/board_en.png) no-repeat; position:absolute; width:851px; height:441px; top: 139px; left: 170px;-webkit-transform: scale(0.9);}

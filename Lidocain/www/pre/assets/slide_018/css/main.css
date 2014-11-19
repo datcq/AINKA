@@ -1,0 +1,27 @@
+.slide_018 #head2, .slide_018 #mainEN{ display:none;}
+.slide_018 .btnVN, .slide_018 .btnEN{ width:50px; height:50px; top: 110px;}
+	.slide_018 .btnVN{ background:url(../images/btnVN.png) no-repeat; left: 1150px;}
+	.slide_018 .btnEN{ background:url(../images/btnEN.png) no-repeat; left: 1209px;}
+	
+.slide_018 .claimM {
+	left: 175px;
+	top: 585px;
+    font-size: 18px;
+}
+.slide_018 .subtitle {
+position: absolute;
+top: 105px;
+left: 166px;
+font-size: 30px;
+width: 945px;
+text-align: center;
+}
+.slide_018 .bg{background:url(../images/bg.jpg) no-repeat;}
+.slide_018 .board{background:url(../images/board.png) no-repeat; position:absolute; width: 1075px; height: 500px; top: 92px; left: 115px;-webkit-transform: scale(0.9);}
+.slide_018 .board table{position:absolute; top: 37px; left: 37px;text-align: center;font-size: 19px;}
+.slide_018 .footnote{position:absolute;top: 480px; left: 3px; font-size: 24px;width: 1080px; height:100px;}
+.slide_018 .footnote div:nth-child(1){background:url(../images/bullet_1.png) no-repeat; position:absolute; top:0px;height:100px;padding: 16px 45px;}
+.slide_018 .footnote div:nth-child(2){background:url(../images/bullet_1.png) no-repeat; position:absolute; top: 50px;height:100px;padding: 19px 45px;}
+
+.slide_018 #mainEN .board{background:url(../images/board_en.png) no-repeat; position:absolute; width: 1075px; height: 500px; top: 92px; left: 115px;-webkit-transform: scale(0.9);}
+
